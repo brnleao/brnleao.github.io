@@ -37,10 +37,20 @@ projetos, formação, contato e os rótulos do painel de configurações.
 - Para adicionar uma cor de destaque, inclua um item em `accents` (em `js/data.js`)
   e um bloco `:root[data-accent="id"]` em `css/styles.css`.
 
-## Publicar
+## Publicação
 
-- GitHub Pages: suba a pasta em um repositório e ative Pages na branch principal.
-- Netlify ou Vercel: arraste a pasta no painel ou conecte o repositório. Não há etapa de build.
+O site está no ar em **https://brnleao.github.io/**, servido pelo GitHub Pages a partir do
+repositório `brnleao/brnleao.github.io` (branch `main`, raiz). Não há etapa de build.
+
+Para publicar uma alteração, faça o commit e envie para a branch `main`; o GitHub Pages
+atualiza o site em cerca de um minuto:
+
+```powershell
+git add -A; git commit -m "Atualiza o portfólio"; git push
+```
+
+Alternativas gratuitas, caso queira outro domínio: Netlify ou Vercel (basta conectar este
+repositório ou arrastar a pasta no painel deles).
 
 ## Observações
 
