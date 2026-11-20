@@ -11,7 +11,7 @@ index.html          página (estrutura e painel de configurações)
 css/styles.css      estilos, temas e animações
 js/data.js          TODO o conteúdo em PT e EN (edite aqui)
 js/app.js           idiomas, configurações e efeitos
-assets/foto.png     foto do perfil
+assets/foto.jpg     foto do perfil (retrato 4:5)
 assets/Bruno_Carneiro_Leao_CV_EN.pdf   currículo para download
 ```
 
@@ -32,7 +32,7 @@ Tudo que aparece na tela está em `js/data.js`, separado em `pt` e `en`:
 textos do topo, sobre, experiências, habilidades (com níveis 1 a 3), consultas SQL,
 projetos, formação, contato e os rótulos do painel de configurações.
 
-- Para trocar a foto, substitua `assets/foto.png` (quadrada funciona melhor).
+- Para trocar a foto, substitua `assets/foto.jpg` (formato retrato 4:5, por exemplo 640 x 800 px).
 - Para trocar o currículo, substitua o PDF em `assets/` e ajuste `meta.cv` em `js/data.js`.
 - Para adicionar uma cor de destaque, inclua um item em `accents` (em `js/data.js`)
   e um bloco `:root[data-accent="id"]` em `css/styles.css`.

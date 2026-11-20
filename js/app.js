@@ -162,7 +162,7 @@
         '</div>' +
       '</div>' +
       '<figure class="hero__photo" data-rise style="--d:1">' +
-        '<img src="' + esc(D.meta.photo) + '" alt="' + esc(h.photoAlt) + '" width="311" height="301" decoding="async" fetchpriority="high">' +
+        '<img src="' + esc(D.meta.photo) + '" alt="' + esc(h.photoAlt) + '" width="640" height="800" decoding="async" fetchpriority="high">' +
         '<span class="hero__frame" aria-hidden="true"></span>' +
       '</figure>';
     $('#scrollHint').textContent = h.scrollHint;

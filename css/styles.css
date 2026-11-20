@@ -225,7 +225,7 @@ html[data-field="off"] .hero__field { display: none; }
 .hero__cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
 .hero__photo {
   position: relative;
-  width: clamp(150px, 18vw, 250px); aspect-ratio: 1;
+  width: clamp(150px, 18vw, 250px); aspect-ratio: 4 / 5;
   margin: 0 14px 14px 0; border-radius: 26px;
 }
 .hero__photo img {
